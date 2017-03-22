@@ -10,12 +10,13 @@ package exercicesdesignpattern.strategy.personnage;
  * @author tkint
  */
 public class Personnage {
+
     private Combat monStyleDeCombat;
 
     public void batsToi() {
         monStyleDeCombat.executeToi();
     }
-    
+
     public Combat getMonStyleDeCombat() {
         return monStyleDeCombat;
     }
