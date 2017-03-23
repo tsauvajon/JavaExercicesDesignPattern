@@ -5,10 +5,16 @@
  */
 package exercicesdesignpattern;
 
-import exercicesdesignpattern.adapter.CanardDindon;
-import exercicesdesignpattern.adapter.Dindon;
-import exercicesdesignpattern.adapter.Dodo;
+import exercicesdesignpattern.decorator.textformat.Texte;
+import exercicesdesignpattern.decorator.facture.Facture;
+import exercicesdesignpattern.decorator.textformat.Italique;
+import exercicesdesignpattern.decorator.facture.Entete;
+import exercicesdesignpattern.decorator.textformat.Gras;
+import exercicesdesignpattern.decorator.facture.Pub;
+import exercicesdesignpattern.decorator.textformat.TexteSimple;
+import exercicesdesignpattern.decorator.facture.FactureSimple;
 import exercicesdesignpattern.strategy.canard.*;
+import exercicesdesignpattern.adapter.dindon.*;
 import exercicesdesignpattern.strategy.personnage.*;
 import exercicesdesignpattern.strategy.logger.*;
 import java.util.ArrayList;
@@ -27,7 +33,9 @@ public class main {
         //canardTest();
         //personnageTest();
         //logTest();
-        dodoTest();
+        //dodoTest();
+        //factureTest();
+        texteTest();
     }
 
     private static void canardTest() {
@@ -79,5 +87,15 @@ public class main {
             canard.afficheToi();
             canard.faisCoinCoin();
         }
+    }
+
+    private static void factureTest() {
+        Facture facture = new Entete("Thomas KINT", new Pub("WinDev", new Pub("Ruby On Rails", new FactureSimple())));
+        facture.imprimeToi();
+    }
+    
+    private static void texteTest() {
+        Texte texte = new Italique(new Gras(new TexteSimple("Salut")));
+        System.out.println(texte.afficheToi());
     }
 }

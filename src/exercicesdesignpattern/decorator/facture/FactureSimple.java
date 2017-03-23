@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.adapter;
+package exercicesdesignpattern.decorator.facture;
 
 /**
  *
  * @author tkint
  */
-public class Dodo extends Dindon {
+public class FactureSimple extends Facture {
 
     @Override
-    public void presenteToi() {
-        System.out.println("Je suis un DODO!!");
+    public void imprimeToi() {
+        System.out.println("Impression d'une facture simple");
     }
 }
