@@ -5,10 +5,15 @@
  */
 package exercicesdesignpattern;
 
+import exercicesdesignpattern.bridge.siteinternet.PageAbstraite;
+import exercicesdesignpattern.bridge.siteinternet.ContenuGratuit;
+import exercicesdesignpattern.bridge.siteinternet.Page;
+import exercicesdesignpattern.bridge.siteinternet.ContenuPayant;
 import exercicesdesignpattern.decorator.textformat.*;
 import exercicesdesignpattern.decorator.facture.*;
 import exercicesdesignpattern.strategy.canard.*;
 import exercicesdesignpattern.adapter.dindon.*;
+import exercicesdesignpattern.bridge.siteinternet.SiteInternet;
 import exercicesdesignpattern.composite.arbre.*;
 import exercicesdesignpattern.decorator.upperreader.*;
 import exercicesdesignpattern.singleton.Singleton;
@@ -44,7 +49,8 @@ public class main {
         //upperReaderTest();
         //singletonTest();
         //chocolaterieTest();
-        arbreTest();
+        //arbreTest();
+        livreTest();
     }
 
     private static void canardTest() {
@@ -152,15 +158,29 @@ public class main {
 
         for (int i = 0; i < 10; i++) {
             Composant branche = new Composant();
-            
+
             for (int j = 0; j < 10; j++) {
                 branche.getComposants().add(new Feuille());
             }
-            
+
             branches.add(branche);
         }
 
         Composant arbre = new Composant(branches);
         arbre.dessine();
+    }
+
+    private static void livreTest() {
+        SiteInternet siteInternet = new SiteInternet();
+        
+        PageAbstraite accueil = new Page("Accueil", new ContenuGratuit());
+        PageAbstraite espaceGratuit = new Page("Espace gratuit", new ContenuGratuit());
+        PageAbstraite espacePremium = new Page("Espace premium", new ContenuPayant());
+        
+        siteInternet.addPage(accueil);
+        siteInternet.addPage(espaceGratuit);
+        siteInternet.addPage(espacePremium);
+        
+        siteInternet.afficheContenu();
     }
 }
