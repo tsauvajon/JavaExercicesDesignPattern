@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.scholer;
+package exercicesdesignpattern.factory.chocolaterie.scholer;
 
-import exercicesdesignpattern.factory.ChocolatLaitAbstrait;
+import exercicesdesignpattern.factory.chocolaterie.ChocolatLaitAbstrait;
 
 /**
  *

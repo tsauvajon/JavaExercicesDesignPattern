@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory;
+package exercicesdesignpattern.factory.dessin;
 
 /**
  *
- * @author tkint
+ * @author Thomas
  */
-public interface IChocolat {
+public interface Dessin {
 
-    public void afficheToi();
+    public void dessineToi();
 }

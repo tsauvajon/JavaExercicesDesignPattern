@@ -5,22 +5,19 @@
  */
 package exercicesdesignpattern;
 
-import exercicesdesignpattern.bridge.siteinternet.PageAbstraite;
-import exercicesdesignpattern.bridge.siteinternet.ContenuGratuit;
-import exercicesdesignpattern.bridge.siteinternet.Page;
-import exercicesdesignpattern.bridge.siteinternet.ContenuPayant;
+import exercicesdesignpattern.factory.chocolaterie.ferrerro.*;
+import exercicesdesignpattern.factory.chocolaterie.*;
+import exercicesdesignpattern.bridge.siteinternet.*;
 import exercicesdesignpattern.decorator.textformat.*;
 import exercicesdesignpattern.decorator.facture.*;
 import exercicesdesignpattern.strategy.canard.*;
 import exercicesdesignpattern.adapter.dindon.*;
-import exercicesdesignpattern.bridge.siteinternet.SiteInternet;
 import exercicesdesignpattern.composite.arbre.*;
 import exercicesdesignpattern.decorator.upperreader.*;
-import exercicesdesignpattern.singleton.Singleton;
+import exercicesdesignpattern.factory.dessin.*;
+import exercicesdesignpattern.singleton.*;
 import exercicesdesignpattern.strategy.personnage.*;
 import exercicesdesignpattern.strategy.logger.*;
-import exercicesdesignpattern.factory.ferrerro.*;
-import exercicesdesignpattern.factory.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -49,8 +46,9 @@ public class main {
         //upperReaderTest();
         //singletonTest();
         //chocolaterieTest();
+        fabriqueADessinTest();
         //arbreTest();
-        livreTest();
+        //livreTest();
     }
 
     private static void canardTest() {
@@ -151,6 +149,21 @@ public class main {
         Chocolaterie chocolaterie = new Chocolaterie(new Ferrerro());
         chocolaterie.produitChocolatLait().afficheToi();
         chocolaterie.produitChocolatNoir().afficheToi();
+    }
+    
+    private static void fabriqueADessinTest() {
+        FabriqueADessin fabriqueADessin = new FabriqueADessin();
+        
+        Dessin carre = fabriqueADessin.fabriqueUnDessin("carre");
+        
+        Dessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
+        
+        Dessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
+        
+        carre.dessineToi();
+        cercle.dessineToi();
+        rectangle.dessineToi();
+        
     }
 
     private static void arbreTest() {
