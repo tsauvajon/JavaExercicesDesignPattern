@@ -9,7 +9,7 @@ package exercicesdesignpattern.decorator.textformat;
  *
  * @author tkint
  */
-public class DecorateurTexte extends Texte {
+public abstract class DecorateurTexte extends Texte {
 
     private Texte texte;
 

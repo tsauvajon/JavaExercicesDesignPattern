@@ -42,11 +42,11 @@ public class main {
         //logTest();
         //dodoTest();
         //factureTest();
-        //texteTest();
+        texteTest();
         //upperReaderTest();
         //singletonTest();
         //chocolaterieTest();
-        fabriqueADessinTest();
+        //fabriqueADessinTest();
         //arbreTest();
         //livreTest();
     }
@@ -113,7 +113,7 @@ public class main {
     }
 
     private static void upperReaderTest() {
-        File file = new File("D:\\tkint\\Documents\\NetBeansProjects\\ExercicesDesignPattern\\src\\exercicesdesignpattern\\decorator\\upperreader\\test.txt");
+        File file = new File("D:\\Thomas\\Documents\\NetBeansProjects\\ExercicesDesignPattern\\src\\exercicesdesignpattern\\decorator\\upperreader\\test.txt");
 
         if (file.exists()) {
             BufferedReader reader = null;
