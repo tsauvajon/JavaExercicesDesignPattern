@@ -14,6 +14,7 @@ import exercicesdesignpattern.strategy.canard.*;
 import exercicesdesignpattern.adapter.dindon.*;
 import exercicesdesignpattern.composite.arbre.*;
 import exercicesdesignpattern.decorator.upperreader.*;
+import exercicesdesignpattern.facade.imprimante.Imprimante;
 import exercicesdesignpattern.factory.dessin.*;
 import exercicesdesignpattern.singleton.*;
 import exercicesdesignpattern.strategy.personnage.*;
@@ -42,13 +43,14 @@ public class main {
         //logTest();
         //dodoTest();
         //factureTest();
-        texteTest();
+        //texteTest();
         //upperReaderTest();
         //singletonTest();
         //chocolaterieTest();
         //fabriqueADessinTest();
         //arbreTest();
         //livreTest();
+        imprimanteTest();
     }
 
     private static void canardTest() {
@@ -195,5 +197,12 @@ public class main {
         siteInternet.addPage(espacePremium);
         
         siteInternet.afficheContenu();
+    }
+
+    private static void imprimanteTest() {
+        Imprimante imprimante = new Imprimante();
+        imprimante.imprimeFeuilleA3();
+        imprimante.imprimeFeuilleA4();
+        imprimante.imprimeFeuilleA5();
     }
 }
