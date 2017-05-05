@@ -2,34 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c363e485-1c47-4bf5-a5e8-d1d4d5eb2a4e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/ComposantArbre.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/IComposantArbre.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/Feuille.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/IFeuille.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/Dessin.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/IDessin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/Vol.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/IVol.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/Processeur.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/IProcesseur.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/Combat.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/ICombat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/Composite.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/Composite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/Composant.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/Composant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/Feuille.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/Feuille.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA3.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA4.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA5.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/FeuilleA5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/Imprimante.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/facade/imprimante/Imprimante.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/Factory.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinCarre.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinCarre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinCercle.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinCercle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinRectangle.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/DessinRectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/FabriqueADessin.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/factory/dessin/FabriqueADessin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/Canard.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/Canard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/NoVol.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/NoVol.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/VolAvecAiles.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/canard/VolAvecAiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/Ordinateur.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/Ordinateur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/ProcesseurMac.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/ProcesseurMac.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/ProcesseurPC.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/ProcesseurPC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatALaHache.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatALaHache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatAuCouteau.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatAuCouteau.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatAuSabre.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/CombatAuSabre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/Personnage.java" afterPath="$PROJECT_DIR$/src/exercicesdesignpattern/strategy/personnage/Personnage.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaExercicesDesignPattern.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/adapter/Adapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/adapter/dindon/CanardDindon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/adapter/dindon/Dindon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/adapter/dindon/Dodo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/Contenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/ContenuGratuit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/ContenuPayant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/PageAbstraite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/bridge/siteinternet/SiteInternet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/composite/Composite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/composite/arbre/Composant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/composite/arbre/Feuille.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/composite/arbre/IComposantArbre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/Decorator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/facture/DecorateurDeFacture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/facture/Entete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/facture/Facture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/facture/FactureSimple.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/facture/Pub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/textformat/DecorateurTexte.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/textformat/Gras.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/textformat/Italique.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/textformat/Texte.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/textformat/TexteSimple.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/upperreader/CustomReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/upperreader/DecorateurDeReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/decorator/upperreader/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/Facade.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/imprimante/FeuilleA3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/imprimante/FeuilleA4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/imprimante/FeuilleA5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/imprimante/IFeuille.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/facade/imprimante/Imprimante.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/ChocolatLaitAbstrait.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/ChocolatNoirAbstrait.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/Chocolaterie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/IChocolat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/IChocolaterie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/ferrerro/ChocolatLaitFerrerro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/ferrerro/ChocolatNoirFerrerro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/ferrerro/Ferrerro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/scholer/ChocolatLaitScholer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/scholer/ChocolatNoirScholer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/chocolaterie/scholer/Scholer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/dessin/DessinCarre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/dessin/DessinCercle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/dessin/DessinRectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/dessin/FabriqueADessin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/factory/dessin/IDessin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/singleton/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/singleton/connexion/Connexion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/Canard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/CanardEnBois.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/Colvert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/IVol.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/Morillon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/NoVol.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/canard/VolAvecAiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/Formater_HTML.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/Formater_String.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/Formater_XML.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/IFormater.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/Logger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/logger/Logger_Console.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/IProcesseur.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/Ordinateur.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/OrdinateurMac.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/OrdinateurPC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/ProcesseurMac.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/ordinateur/ProcesseurPC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/Brigand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/Chevalier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/CombatALaHache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/CombatAuCouteau.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/CombatAuSabre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/ICombat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/Personnage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExercicesDesignPattern/exercicesdesignpattern/strategy/personnage/Troll.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="JavaExercicesDesignPattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +114,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OrdinateurPC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/OrdinateurPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProcesseurMac.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercicesdesignpattern/strategy/ordinateur/ProcesseurMac.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,11 +184,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bridge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bridge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercicesdesignpattern/bridge/Bridge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -190,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/ComposantArbre.java" />
         <option value="$PROJECT_DIR$/src/exercicesdesignpattern/composite/arbre/IComposantArbre.java" />
         <option value="$PROJECT_DIR$/src/exercicesdesignpattern/bridge/siteinternet/Contenu.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -237,34 +301,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaExercicesDesignPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaExercicesDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaExercicesDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaExercicesDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaExercicesDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercicesdesignpattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -829,16 +865,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493985219256</updated>
-      <workItem from="1493985220707" duration="3899000" />
+      <workItem from="1493985220707" duration="4301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3899000" />
+    <option name="totallyTimeSpent" value="4301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -852,7 +888,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1165,6 +1201,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
