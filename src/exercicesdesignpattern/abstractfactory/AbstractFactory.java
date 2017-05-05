@@ -9,6 +9,9 @@ import exercicesdesignpattern.abstractfactory.chocolaterie.*;
 import exercicesdesignpattern.abstractfactory.chocolaterie.ferrerro.*;
 import exercicesdesignpattern.abstractfactory.chocolaterie.scholer.*;
 import exercicesdesignpattern.abstractfactory.dessin.*;
+import exercicesdesignpattern.abstractfactory.pizzeria.IPizzeria;
+import exercicesdesignpattern.abstractfactory.pizzeria.PizzeriaBrest;
+import exercicesdesignpattern.abstractfactory.pizzeria.PizzeriaNice;
 
 /**
  *
@@ -20,8 +23,9 @@ public class AbstractFactory {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        chocolaterie();
-        dessin();
+//        chocolaterie();
+//        dessin();
+        pizzeria();
     }
 
     private static void chocolaterie() {
@@ -55,5 +59,16 @@ public class AbstractFactory {
         
         fractale.dessineToi();
         vecteur.dessineToi();
+    }
+    
+    private static void pizzeria() {
+        IPizzeria pizzeriaBrest = new PizzeriaBrest();
+        pizzeriaBrest.commander("fromage").afficheToi();
+        pizzeriaBrest.commander("viande").afficheToi();
+        
+        IPizzeria pizzeriaNice = new PizzeriaNice();
+        pizzeriaNice.commander("fromage").afficheToi();
+        pizzeriaNice.commander("viande").afficheToi();
+        pizzeriaNice.commander("kebab").afficheToi();
     }
 }
