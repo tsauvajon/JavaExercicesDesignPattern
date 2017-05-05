@@ -9,10 +9,10 @@ package exercicesdesignpattern.strategy.canard;
  *
  * @author tkint
  */
-public class VolAvecAiles implements Vol {
+public class VolAvecAiles implements IVol {
 
     @Override
     public void vole() {
-        System.out.println("Je peux voler!");
+        System.out.println("Je peux voler !!");
     }
 }

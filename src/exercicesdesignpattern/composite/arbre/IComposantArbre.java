@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.facade.imprimante;
+package exercicesdesignpattern.composite.arbre;
 
 /**
  *
- * @author Thomas
+ * @author tkint
  */
-public interface Feuille {
+public interface IComposantArbre {
 
-    public void imprimeToi();
+    public void dessine();
 }

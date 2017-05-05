@@ -9,7 +9,7 @@ package exercicesdesignpattern.strategy.personnage;
  *
  * @author tkint
  */
-public class CombatALaHache implements Combat {
+public class CombatALaHache implements ICombat {
 
     @Override
     public void executeToi() {

@@ -9,7 +9,7 @@ package exercicesdesignpattern.factory.dessin;
  *
  * @author Thomas
  */
-public class DessinCarre implements Dessin {
+public class DessinCarre implements IDessin {
 
     @Override
     public void dessineToi() {

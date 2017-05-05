@@ -9,7 +9,7 @@ package exercicesdesignpattern.factory.dessin;
  *
  * @author Thomas
  */
-public class DessinRectangle implements Dessin {
+public class DessinRectangle implements IDessin {
 
     @Override
     public void dessineToi() {

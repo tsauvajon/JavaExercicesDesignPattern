@@ -11,8 +11,8 @@ package exercicesdesignpattern.factory.dessin;
  */
 public class FabriqueADessin {
 
-    public Dessin fabriqueUnDessin(String type) {
-        Dessin dessin = null;
+    public IDessin fabriqueUnDessin(String type) {
+        IDessin dessin = null;
         switch (type) {
             case "carre":
                 dessin = new DessinCarre();

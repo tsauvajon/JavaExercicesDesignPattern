@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.strategy.personnage;
+package exercicesdesignpattern.strategy.ordinateur;
 
 /**
  *
- * @author tkint
+ * @author Thomas Kint
  */
-public interface Combat {
-    public void executeToi();
+public interface IProcesseur {
+
+    public void afficheToi();
 }

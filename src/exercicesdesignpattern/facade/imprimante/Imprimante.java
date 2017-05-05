@@ -11,9 +11,9 @@ package exercicesdesignpattern.facade.imprimante;
  */
 public class Imprimante {
 
-    private Feuille feuilleA3;
-    private Feuille feuilleA4;
-    private Feuille feuilleA5;
+    private IFeuille feuilleA3;
+    private IFeuille feuilleA4;
+    private IFeuille feuilleA5;
 
     public Imprimante() {
         feuilleA3 = new FeuilleA3();

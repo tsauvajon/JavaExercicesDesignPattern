@@ -37,11 +37,11 @@ public class Factory {
     private static void dessin() {
         FabriqueADessin fabriqueADessin = new FabriqueADessin();
 
-        Dessin carre = fabriqueADessin.fabriqueUnDessin("carre");
+        IDessin carre = fabriqueADessin.fabriqueUnDessin("carre");
 
-        Dessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
+        IDessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
 
-        Dessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
+        IDessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
 
         carre.dessineToi();
         cercle.dessineToi();

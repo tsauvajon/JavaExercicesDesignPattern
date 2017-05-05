@@ -11,7 +11,7 @@ package exercicesdesignpattern.strategy.canard;
  */
 public abstract class Canard {
 
-    private Vol maFaconDeVoler;
+    private IVol maFaconDeVoler;
 
     public void faisCoinCoin() {
         System.out.println("Coin coin");
@@ -25,7 +25,7 @@ public abstract class Canard {
         System.out.println("Je suis un canard");
     }
 
-    public void setMaFaconDeVoler(Vol v) {
+    public void setMaFaconDeVoler(IVol v) {
         maFaconDeVoler = v;
     }
 

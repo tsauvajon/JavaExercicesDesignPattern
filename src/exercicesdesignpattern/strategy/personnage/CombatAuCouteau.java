@@ -9,7 +9,7 @@ package exercicesdesignpattern.strategy.personnage;
  *
  * @author tkint
  */
-public class CombatAuCouteau implements Combat {
+public class CombatAuCouteau implements ICombat {
 
     @Override
     public void executeToi() {

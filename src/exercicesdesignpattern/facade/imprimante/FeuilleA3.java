@@ -9,7 +9,7 @@ package exercicesdesignpattern.facade.imprimante;
  *
  * @author Thomas
  */
-public class FeuilleA3 implements Feuille {
+public class FeuilleA3 implements IFeuille {
 
     @Override
     public void imprimeToi() {
