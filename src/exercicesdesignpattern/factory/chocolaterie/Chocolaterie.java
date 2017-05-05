@@ -17,6 +17,14 @@ public class Chocolaterie {
         this.chocolaterie = chocolaterie;
     }
 
+    public IChocolaterie getChocolaterie() {
+        return chocolaterie;
+    }
+
+    public void setChocolaterie(IChocolaterie chocolaterie) {
+        this.chocolaterie = chocolaterie;
+    }
+
     public ChocolatLaitAbstrait produitChocolatLait() {
         return this.chocolaterie.produitChocolatLait();
     }

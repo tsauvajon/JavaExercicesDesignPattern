@@ -15,6 +15,6 @@ public class ChocolatNoirFerrerro extends ChocolatNoirAbstrait {
 
     @Override
     public void afficheToi() {
-        System.out.println("Chocolat au noir ferrerro");
+        System.out.println("Chocolat noir ferrerro");
     }
 }

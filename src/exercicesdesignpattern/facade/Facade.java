@@ -3,25 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.singleton;
+package exercicesdesignpattern.facade;
 
-import exercicesdesignpattern.singleton.connexion.Connexion;
+import exercicesdesignpattern.facade.imprimante.*;
 
 /**
  *
  * @author Thomas Kint
  */
-public class Singleton {
+public class Facade {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        connexion();
+        imprimante();
     }
-    
-    private static void connexion() {
-        Connexion.getInstance();
-        Connexion.getInstance();
+
+    private static void imprimante() {
+        Imprimante imprimante = new Imprimante();
+        imprimante.imprimeFeuilleA3();
+        imprimante.imprimeFeuilleA4();
+        imprimante.imprimeFeuilleA5();
     }
 }
