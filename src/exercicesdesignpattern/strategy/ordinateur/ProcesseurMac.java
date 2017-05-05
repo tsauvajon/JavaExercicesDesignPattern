@@ -9,7 +9,7 @@ package exercicesdesignpattern.strategy.ordinateur;
  *
  * @author Thomas Kint
  */
-public class ProcesseurMac implements Processeur {
+public class ProcesseurMac implements IProcesseur {
 
     @Override
     public void afficheToi() {

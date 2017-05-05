@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.strategy.ordinateur;
+package exercicesdesignpattern.composite.arbre;
 
 /**
  *
- * @author Thomas Kint
+ * @author tkint
  */
-public interface Processeur {
+public interface IComposantArbre {
 
-    public void afficheToi();
+    public void dessine();
 }

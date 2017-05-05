@@ -22,7 +22,7 @@ public class Composite {
     }
 
     private static void arbre() {
-        ArrayList<ComposantArbre> branches = new ArrayList<>();
+        ArrayList<IComposantArbre> branches = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
             Composant branche = new Composant();

@@ -12,29 +12,29 @@ import java.util.List;
  *
  * @author tkint
  */
-public class Composant implements ComposantArbre {
+public class Composant implements IComposantArbre {
 
-    private List<ComposantArbre> composants;
+    private List<IComposantArbre> composants;
 
     public Composant() {
         composants = new ArrayList<>();
     }
 
-    public Composant(List<ComposantArbre> composants) {
+    public Composant(List<IComposantArbre> composants) {
         this.composants = composants;
     }
 
-    public List<ComposantArbre> getComposants() {
+    public List<IComposantArbre> getComposants() {
         return composants;
     }
 
-    public void setComposants(List<ComposantArbre> composants) {
+    public void setComposants(List<IComposantArbre> composants) {
         this.composants = composants;
     }
 
     @Override
     public void dessine() {
-        for (ComposantArbre composant : composants) {
+        for (IComposantArbre composant : composants) {
             composant.dessine();
         }
         System.out.println("| |");

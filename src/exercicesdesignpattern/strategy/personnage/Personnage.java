@@ -11,17 +11,17 @@ package exercicesdesignpattern.strategy.personnage;
  */
 public class Personnage {
 
-    private Combat monStyleDeCombat;
+    private ICombat monStyleDeCombat;
 
     public void batsToi() {
         monStyleDeCombat.executeToi();
     }
 
-    public Combat getMonStyleDeCombat() {
+    public ICombat getMonStyleDeCombat() {
         return monStyleDeCombat;
     }
 
-    public void setMonStyleDeCombat(Combat monStyleDeCombat) {
+    public void setMonStyleDeCombat(ICombat monStyleDeCombat) {
         this.monStyleDeCombat = monStyleDeCombat;
     }
 }

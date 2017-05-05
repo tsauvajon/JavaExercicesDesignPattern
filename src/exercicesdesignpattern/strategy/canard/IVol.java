@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.facade.imprimante;
+package exercicesdesignpattern.strategy.canard;
 
 /**
  *
- * @author Thomas
+ * @author tkint
  */
-public interface Feuille {
-
-    public void imprimeToi();
+public interface IVol {
+    public void vole();
 }

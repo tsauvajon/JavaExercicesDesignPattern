@@ -9,7 +9,7 @@ package exercicesdesignpattern.composite.arbre;
  *
  * @author tkint
  */
-public class Feuille implements ComposantArbre {
+public class Feuille implements IComposantArbre {
 
     @Override
     public void dessine() {

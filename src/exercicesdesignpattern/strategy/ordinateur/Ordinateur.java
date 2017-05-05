@@ -11,13 +11,13 @@ package exercicesdesignpattern.strategy.ordinateur;
  */
 public abstract class Ordinateur {
 
-    private Processeur processeur;
+    private IProcesseur processeur;
 
-    public Processeur getProcesseur() {
+    public IProcesseur getProcesseur() {
         return processeur;
     }
 
-    public void setProcesseur(Processeur processeur) {
+    public void setProcesseur(IProcesseur processeur) {
         this.processeur = processeur;
     }
     

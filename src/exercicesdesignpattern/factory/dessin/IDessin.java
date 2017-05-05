@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.strategy.canard;
+package exercicesdesignpattern.factory.dessin;
 
 /**
  *
- * @author tkint
+ * @author Thomas
  */
-public interface Vol {
-    public void vole();
+public interface IDessin {
+
+    public void dessineToi();
 }

@@ -9,10 +9,7 @@ package exercicesdesignpattern.strategy.ordinateur;
  *
  * @author Thomas Kint
  */
-public class ProcesseurPC implements IProcesseur {
+public interface IProcesseur {
 
-    @Override
-    public void afficheToi() {
-        System.out.println("Processeur de PC");
-    }
+    public void afficheToi();
 }

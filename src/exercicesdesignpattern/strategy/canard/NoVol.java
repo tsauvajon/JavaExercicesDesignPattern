@@ -9,7 +9,7 @@ package exercicesdesignpattern.strategy.canard;
  *
  * @author tkint
  */
-public class NoVol implements Vol {
+public class NoVol implements IVol {
 
     @Override
     public void vole() {

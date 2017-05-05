@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.strategy.personnage;
+package exercicesdesignpattern.facade.imprimante;
 
 /**
  *
- * @author tkint
+ * @author Thomas
  */
-public interface Combat {
-    public void executeToi();
+public interface IFeuille {
+
+    public void imprimeToi();
 }
