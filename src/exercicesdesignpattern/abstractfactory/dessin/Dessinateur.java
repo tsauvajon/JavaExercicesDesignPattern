@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.dessin;
+package exercicesdesignpattern.abstractfactory.dessin;
 
 /**
  *
  * @author Thomas
  */
-public class FabriqueADessin {
+public class Dessinateur implements IFabriqueADessin {
 
-    public Dessin fabriqueUnDessin(String type) {
-        Dessin dessin = null;
+    public IDessin fabriqueUnDessin(String type) {
+        IDessin dessin = null;
         switch (type) {
             case "carre":
                 dessin = new DessinCarre();

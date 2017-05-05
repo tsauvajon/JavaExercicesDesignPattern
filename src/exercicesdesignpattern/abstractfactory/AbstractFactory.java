@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory;
+package exercicesdesignpattern.abstractfactory;
 
-import exercicesdesignpattern.factory.chocolaterie.*;
-import exercicesdesignpattern.factory.chocolaterie.ferrerro.*;
-import exercicesdesignpattern.factory.chocolaterie.scholer.Scholer;
-import exercicesdesignpattern.factory.dessin.*;
+import exercicesdesignpattern.abstractfactory.chocolaterie.*;
+import exercicesdesignpattern.abstractfactory.chocolaterie.ferrerro.*;
+import exercicesdesignpattern.abstractfactory.chocolaterie.scholer.*;
+import exercicesdesignpattern.abstractfactory.dessin.*;
 
 /**
  *
  * @author Thomas Kint
  */
-public class Factory {
+public class AbstractFactory {
 
     /**
      * @param args the command line arguments
@@ -35,17 +35,25 @@ public class Factory {
     }
 
     private static void dessin() {
-        FabriqueADessin fabriqueADessin = new FabriqueADessin();
+        IFabriqueADessin fabriqueADessin = new Dessinateur();
 
-        Dessin carre = fabriqueADessin.fabriqueUnDessin("carre");
+        IDessin carre = fabriqueADessin.fabriqueUnDessin("carre");
 
-        Dessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
+        IDessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
 
-        Dessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
+        IDessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
 
         carre.dessineToi();
         cercle.dessineToi();
         rectangle.dessineToi();
-
+        
+        fabriqueADessin = new Robot();
+        
+        IDessin fractale = fabriqueADessin.fabriqueUnDessin("fractale");
+        
+        IDessin vecteur = fabriqueADessin.fabriqueUnDessin("vecteur");
+        
+        fractale.dessineToi();
+        vecteur.dessineToi();
     }
 }

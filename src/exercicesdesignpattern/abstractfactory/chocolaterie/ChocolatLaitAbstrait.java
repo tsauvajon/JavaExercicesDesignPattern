@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.chocolaterie.ferrerro;
-
-import exercicesdesignpattern.factory.chocolaterie.ChocolatLaitAbstrait;
+package exercicesdesignpattern.abstractfactory.chocolaterie;
 
 /**
  *
  * @author tkint
  */
-public class ChocolatLaitFerrerro extends ChocolatLaitAbstrait {
+public abstract class ChocolatLaitAbstrait implements IChocolat {
 
     @Override
     public void afficheToi() {
-        System.out.println("Chocolat au lait ferrerro");
+        System.out.println("Chocolat au lait");
     }
 }

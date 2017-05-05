@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.chocolaterie.ferrerro;
+package exercicesdesignpattern.abstractfactory.chocolaterie.ferrerro;
 
-import exercicesdesignpattern.factory.chocolaterie.ChocolatLaitAbstrait;
-import exercicesdesignpattern.factory.chocolaterie.ChocolatNoirAbstrait;
-import exercicesdesignpattern.factory.chocolaterie.IChocolaterie;
+import exercicesdesignpattern.abstractfactory.chocolaterie.ChocolatLaitAbstrait;
+import exercicesdesignpattern.abstractfactory.chocolaterie.ChocolatNoirAbstrait;
+import exercicesdesignpattern.abstractfactory.chocolaterie.IChocolaterie;
 
 /**
  *

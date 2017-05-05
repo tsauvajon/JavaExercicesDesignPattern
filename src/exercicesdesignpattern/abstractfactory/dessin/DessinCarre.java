@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.chocolaterie;
+package exercicesdesignpattern.abstractfactory.dessin;
 
 /**
  *
- * @author tkint
+ * @author Thomas
  */
-public abstract class ChocolatLaitAbstrait implements IChocolat {
+public class DessinCarre implements IDessin {
 
     @Override
-    public void afficheToi() {
-        System.out.println("Chocolat au lait");
+    public void dessineToi() {
+        System.out.println("Dessin d'un carré");
     }
 }

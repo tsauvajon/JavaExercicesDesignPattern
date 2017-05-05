@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.dessin;
+package exercicesdesignpattern.abstractfactory.dessin;
 
 /**
  *
  * @author Thomas
  */
-public interface Dessin {
+public class DessinCercle implements IDessin {
 
-    public void dessineToi();
+    @Override
+    public void dessineToi() {
+        System.out.println("Dessin d'un cercle");
+    }
 }

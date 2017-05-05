@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.factory.dessin;
+package exercicesdesignpattern.abstractfactory.dessin;
 
 /**
  *
  * @author Thomas
  */
-public class DessinCarre implements Dessin {
+public class DessinRectangle implements IDessin {
 
     @Override
     public void dessineToi() {
-        System.out.println("Dessin d'un carré");
+        System.out.println("Dessin d'un rectangle");
     }
 }
