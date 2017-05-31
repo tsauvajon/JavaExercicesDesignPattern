@@ -5,12 +5,17 @@
  */
 package exercicesdesignpattern.observable.emetson;
 
+import exercicesdesignpattern.strategy.canard.Canard;
+import exercicesdesignpattern.strategy.canard.NoVol;
+
 /**
  *
  * @author thomas.sauvajon
  */
 public class Chasseur extends Observateur {
     public void reagit(Observable obs) {
-        System.out.println("Je tue le canard: " + obs.toString());
+        System.out.println("Bim le canard");
+        CanardObservable c = (CanardObservable) obs;
+        c.getCanard().setMaFaconDeVoler(new NoVol());
     }
 }
