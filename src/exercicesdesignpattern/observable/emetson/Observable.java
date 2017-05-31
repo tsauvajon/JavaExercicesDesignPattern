@@ -14,7 +14,15 @@ import java.util.ArrayList;
 public class Observable {
     ArrayList<Observateur> observateurs;
     
+    public Observable() {
+        this.observateurs = new ArrayList();
+    }
+    
     public void notifier() {
         observateurs.forEach(o -> o.reagit(this));
     };
+    
+    public void addObservateur(Observateur o) {
+        this.observateurs.add(o);
+    }
 }
