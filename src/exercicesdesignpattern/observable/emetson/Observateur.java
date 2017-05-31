@@ -9,8 +9,6 @@ package exercicesdesignpattern.observable.emetson;
  *
  * @author thomas.sauvajon
  */
-public class Observateur {
-    public void reagit (Observable obs) {
-        System.out.println("Le canard emet un son");
-    }
+public abstract class Observateur {
+    public abstract void reagit (Observable obs);
 }
