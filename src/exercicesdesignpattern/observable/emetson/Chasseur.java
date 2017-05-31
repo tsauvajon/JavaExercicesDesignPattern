@@ -9,6 +9,8 @@ package exercicesdesignpattern.observable.emetson;
  *
  * @author thomas.sauvajon
  */
-public class Chasseur {
-    
+public class Chasseur extends Observateur {
+    public void reagit(Observable obs) {
+        System.out.println("Je tue le canard: " + obs.toString());
+    }
 }

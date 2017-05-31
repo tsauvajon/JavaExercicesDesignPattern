@@ -11,6 +11,6 @@ package exercicesdesignpattern.observable.emetson;
  */
 public class Observateur {
     public void reagit (Observable obs) {
-        System.out.println("Je réagis !");
+        System.out.println("Le canard emet un son");
     }
 }
