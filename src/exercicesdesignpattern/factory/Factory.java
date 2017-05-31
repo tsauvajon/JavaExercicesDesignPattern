@@ -5,10 +5,8 @@
  */
 package exercicesdesignpattern.factory;
 
-import exercicesdesignpattern.factory.chocolaterie.*;
-import exercicesdesignpattern.factory.chocolaterie.ferrerro.*;
-import exercicesdesignpattern.factory.chocolaterie.scholer.Scholer;
-import exercicesdesignpattern.factory.dessin.*;
+import exercicesdesignpattern.factory.robot.FabriqueARobot;
+import exercicesdesignpattern.factory.robot.IRobot;
 
 /**
  *
@@ -20,32 +18,15 @@ public class Factory {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        chocolaterie();
-        dessin();
+        robot();
     }
+    
+    private static void robot() {
+        FabriqueARobot fabrique = new FabriqueARobot();
+        IRobot robotTueur = fabrique.fabriqueUnRobot("tueur");
+        IRobot robotAmical = fabrique.fabriqueUnRobot("amical");
 
-    private static void chocolaterie() {
-        Chocolaterie chocolaterie = new Chocolaterie(new Ferrerro());
-        chocolaterie.produitChocolatLait().afficheToi();
-        chocolaterie.produitChocolatNoir().afficheToi();
-        
-        chocolaterie.setChocolaterie(new Scholer());
-        chocolaterie.produitChocolatLait().afficheToi();
-        chocolaterie.produitChocolatNoir().afficheToi();
-    }
-
-    private static void dessin() {
-        FabriqueADessin fabriqueADessin = new FabriqueADessin();
-
-        IDessin carre = fabriqueADessin.fabriqueUnDessin("carre");
-
-        IDessin cercle = fabriqueADessin.fabriqueUnDessin("cercle");
-
-        IDessin rectangle = fabriqueADessin.fabriqueUnDessin("rectangle");
-
-        carre.dessineToi();
-        cercle.dessineToi();
-        rectangle.dessineToi();
-
+        robotTueur.afficheToi();
+        robotAmical.afficheToi();
     }
 }
