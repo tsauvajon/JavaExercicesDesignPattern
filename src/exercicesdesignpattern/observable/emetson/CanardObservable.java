@@ -19,6 +19,7 @@ public class CanardObservable extends Observable implements IEmetSon {
     
     @Override
     public void emetUnSon() {
+        canard.faisCoinCoin();
         notifier();
     }    
 

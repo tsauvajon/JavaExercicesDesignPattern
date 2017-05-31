@@ -14,16 +14,21 @@ import exercicesdesignpattern.strategy.canard.Morillon;
  */
 public class EmetSon {
     public static void main(String[] args) {
-        Observable observable = new CanardObservable(new Morillon());
-        
-        Observable observable2 = new CanardObservable(new Colvert());
-        
+        CanardObservable observable = new CanardObservable(new Morillon());
+                
         observable.addObservateur(new Chasseur());
         observable.addObservateur(new Chasseur());
         observable.addObservateur(new Chasseur());
         observable.addObservateur(new Chasseur());
 
-        observable.notifier();
+        observable.emetUnSon();
+        
+        CanardObservable observable2 = new CanardObservable(new AdaptateurOie(new Oie()));
+        
+        observable2.addObservateur(new Chasseur());
+        observable2.addObservateur(new Chasseur());
+        
+        observable2.emetUnSon();
     }
     
 }

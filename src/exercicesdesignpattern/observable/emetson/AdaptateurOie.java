@@ -5,20 +5,26 @@
  */
 package exercicesdesignpattern.observable.emetson;
 
+import exercicesdesignpattern.strategy.canard.Canard;
+
 /**
  *
  * @author thomas.sauvajon
  */
-public class AdaptateurOie implements IEmetSon {
+public class AdaptateurOie extends Canard {
     private Oie oie;
     
     public AdaptateurOie(Oie oie) {
         this.oie = oie;
     }
-    
+
     @Override
-    public void emetUnSon() {
-        System.out.println("Pouet pouet");
+    public void afficheToi() {
+        System.out.println("Je suis une oie");
     }
     
+    @Override
+    public void faisCoinCoin() {
+        System.out.println("Coin coin de l'oie");
+    }
 }
