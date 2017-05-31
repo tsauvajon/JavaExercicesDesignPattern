@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.emetson;
+package exercicesdesignpattern.observable.emetson;
 
 /**
  *
  * @author thomas.sauvajon
  */
-public class Oie {
-    
+public class Observateur {
+    public void reagit (Observable obs) {
+        System.out.println("Je réagis !");
+    }
 }
