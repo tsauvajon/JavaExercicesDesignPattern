@@ -3,22 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.decorator.emetson;
+package exercicesdesignpattern.multiple.emetson;
 
 /**
  *
  * @author thomas.sauvajon
  */
-public class AdaptateurOie implements IEmetSon {
-    private Oie oie;
+public class Deco implements IEmetSon {
+    private final IEmetSon es;
     
-    public AdaptateurOie(Oie oie) {
-        this.oie = oie;
+    static int cpt;
+    
+    Deco (IEmetSon e) {
+        es = e;
     }
     
     @Override
     public void emetUnSon() {
-        System.out.println("Pouet pouet");
+        cpt++;
+        es.emetUnSon();
     }
-    
 }

@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicesdesignpattern.decorator.emetson;
+package exercicesdesignpattern.multiple.emetson;
 
 /**
  *
  * @author thomas.sauvajon
  */
-public interface IEmetSon {
-    public void emetUnSon();
+public class Oie {
+    
 }
